@@ -66,7 +66,7 @@ sudo make install
 ```
 
 📷 *Installation successful*  
-![Yosys Installed](Week0/assets/yosys.png)  
+![Yosys Installed](assets/yosys.png)  
 
 ✅ **Yosys Successfully Installed**  
 
@@ -81,7 +81,7 @@ sudo apt install iverilog
 ```
 
 📷 *Installation successful*  
-![Iverilog Installed](Week0/assets/iverilog.png)  
+![Iverilog Installed](assets/iverilog.png)  
 
 ✅ **Iverilog Successfully Installed**  
 
@@ -96,8 +96,8 @@ sudo apt install gtkwave
 ```
 
 📷 *Installation successful*  
-![GTKWave Installed](Week0/assets/gtkwave1.png)
-![GTKWave](Week0/assets/gtkwave2.png)  
+![GTKWave Installed](assets/gtkwave1.png)
+![GTKWave](assets/gtkwave2.png)  
 
 ✅ **GTKWave Successfully Installed**  
 
@@ -112,7 +112,7 @@ sudo apt install ngspice
 ```
 
 📷 *Installation successful*  
-![Ngspice Installed](Week0/assets/ngspice.png)  
+![Ngspice Installed](assets/ngspice.png)  
 
 ✅ **Ngspice Successfully Installed**  
 
@@ -137,7 +137,7 @@ sudo make install
 ```
 
 📷 *Installation successful*  
-![Magic VLSI Installed](Week0/assets/magic.png)  
+![Magic VLSI Installed](assets/magic.png)  
 
 ✅ **Magic VLSI Successfully Installed**  
 
@@ -175,7 +175,7 @@ sudo docker run hello-world
 ```
 
 📷 *Installation successful*  
-![Docker Installed](Week0/assets/docker_installed.png)  
+![Docker Installed](assets/docker_installed.png)  
 
 ✅ **Docker Successfully Installed**  
 
@@ -193,7 +193,7 @@ make test
 ```
 
 📷 *Installation successful*  
-![OpenLane Installed](Week0/assets/openlane_installed.png)  
+![OpenLane Installed](assets/openlane_installed.png)  
 
 ✅ **OpenLane Successfully Installed**  
 
