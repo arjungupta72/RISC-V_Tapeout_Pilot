@@ -14,13 +14,27 @@ This repo documents **Week 0 Introduction and Setup**, covering *introduction to
 ## 📅 Week 0  
 
 ### 📝 Task 1 — Video Summary  
-*Summary*  
+*Digital VLSI SoC Design and Planning*
+The VLSI Soc Design process starts at the RTL level and ends at GDSII which is then sent to the foundry(tapeout), the foundry then fabricates the SoC and gives it to us(tape-in).
+First we have a testbench which is in C language, we use GCC to compile this code and get O0 which is the reference correct output that we need, our final designed SoC should provide equivalent output as O0 that we got by comipiling the testbench through GCC.
+After O0 we using a C like language to write the specs of our SoC(will be explained in detail in further weeks) and use these specs instead of GCC to generate O1. Now we need to verify if O1 is equivalent to O0, if it is, we can verify that the specs we have created are correct and move furrther to RTL.
 
+![intro1](assets/vlsi_intro1.png)
+
+
+After this Verilog or verilog like RTL alternative is used to generate the Soft copy of hardware to get O2, once again this O2 output should be equivalent to O1.
+Now after further steps which will be explained in detail later, we get the final GDSII which is the collection of standardized files send to the foundry which can fabricate our chip using these files, this GDSII output is O3, once again should be equivalent to O2.
+![intro2](assets/vlsi_intro2.png)
+
+Finally, after getting the fabricated SoC from foundry, we test the SoC using the same testbench in C language to get O4, the final output. 
+If O4=O3=O2=O1=O0, then we can say that our design is correct and is called SILICON-PROVEN.
+![intro3](assets/vlsi_intro3.png)
 ---
+
 
 ### ⚙️ Task 2 — Setup & Tools Installation  
 
-#### **1. System and Virtual Machine Configuration**
+#### **System and Virtual Machine Configuration**
 
 To ensure optimal performance, configure a **Virtual Machine (VM)** with the following specifications:
 
