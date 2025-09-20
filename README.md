@@ -65,9 +65,6 @@ make
 sudo make install
 ```
 
-📷 *Installation successful*  
-![Yosys Installed](assets/yosys.png)  
-
 ✅ **Yosys Successfully Installed**  
 
 ---
@@ -137,9 +134,10 @@ sudo make install
 ```
 
 📷 *Installation successful*  
-![Magic VLSI Installed](assets/magic.png)  
+![Magic](assets/magic1.png)
+![Magic](assets/magic2.png)
 
-✅ **Magic VLSI Successfully Installed**  
+✅ **Magic Successfully Installed**  
 
 ---
 
@@ -172,17 +170,31 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 Verify Docker:  
 ```bash
 sudo docker run hello-world
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo reboot
+# After reboot
+docker run hello-world
 ```
-
-📷 *Installation successful*  
-![Docker Installed](assets/docker_installed.png)  
-
 ✅ **Docker Successfully Installed**  
+📷 *Installation successful* 
+![Docker Installed](assets/docker.png)  
 
 ---
 
 ##### OpenLane Installation  
 *OpenLane integrates multiple open-source tools (like Yosys, OpenROAD, Magic, Netgen) into a single automated flow.*  
+
+Check dependencies
+```bash
+git --version
+docker --version
+python3 --version
+python3 -m pip --version
+make --version
+python3 -m venv -h 
+```
+Once dependencies verified:
 
 ```bash
 cd $HOME
@@ -193,7 +205,7 @@ make test
 ```
 
 📷 *Installation successful*  
-![OpenLane Installed](assets/openlane_installed.png)  
+![OpenLane Installed](assets/openlane.png)  
 
 ✅ **OpenLane Successfully Installed**  
 
