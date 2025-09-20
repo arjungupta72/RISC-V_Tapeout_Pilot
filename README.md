@@ -24,11 +24,15 @@ After O0 we using a C like language to write the specs of our SoC(will be explai
 
 After this Verilog or verilog like RTL alternative is used to generate the Soft copy of hardware to get O2, once again this O2 output should be equivalent to O1.
 Now after further steps which will be explained in detail later, we get the final GDSII which is the collection of standardized files send to the foundry which can fabricate our chip using these files, this GDSII output is O3, once again should be equivalent to O2.
+
 ![intro2](assets/vlsi_intro2.png)
 
 Finally, after getting the fabricated SoC from foundry, we test the SoC using the same testbench in C language to get O4, the final output. 
 If O4=O3=O2=O1=O0, then we can say that our design is correct and is called SILICON-PROVEN.
+
 ![intro3](assets/vlsi_intro3.png)
+
+
 ---
 
 
