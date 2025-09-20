@@ -12,8 +12,8 @@ This repo documents my **Week 0 setup and tasks**, covering installations, envir
 ---
 
 ## 📅 Week 0 
-## 📅 Task 1-Video Summary
-## 📅 Task 2- Setup & Tools Installation 
+## Task 1-Video Summary
+## Task 2- Setup & Tools Installation 
 ##  **System and Virtual Machine Configuration**
 
 To ensure optimal performance,  configure a **Virtual Machine (VM)** with the following specifications:
