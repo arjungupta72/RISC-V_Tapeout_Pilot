@@ -48,6 +48,8 @@ Now install the following tools:
 
 ```bash
 # Install dependencies
+sudo apt update
+sudo apt install make (If make is not installed please it)
 sudo apt-get install build-essential clang bison flex \
     libreadline-dev gawk tcl-dev libffi-dev git \
     graphviz xdot pkg-config python3 libboost-system-dev \
@@ -56,12 +58,15 @@ sudo apt-get install build-essential clang bison flex \
 # Clone and build Yosys
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
+make config-gcc
+# Yosys build depends on a Git submodule called abc, which hasn't been initialized yet. You need to run the following command before running make
+git submodule update --init --recursive
 make
 sudo make install
 ```
 
 📷 *Installation successful*  
-![Yosys Installed](Week0/assets/yosys_installed.png)  
+![Yosys Installed](Week0/assets/yosys.png)  
 
 ✅ **Yosys Successfully Installed**  
 
@@ -71,11 +76,12 @@ sudo make install
 *Icarus Verilog compiles and simulates Verilog designs for functional verification.*  
 
 ```bash
-sudo apt-get install iverilog
+sudo apt update
+sudo apt install iverilog
 ```
 
 📷 *Installation successful*  
-![Iverilog Installed](Week0/assets/iverilog_installed.png)  
+![Iverilog Installed](Week0/assets/iverilog.png)  
 
 ✅ **Iverilog Successfully Installed**  
 
@@ -90,7 +96,8 @@ sudo apt install gtkwave
 ```
 
 📷 *Installation successful*  
-![GTKWave Installed](Week0/assets/gtkwave_installed.png)  
+![GTKWave Installed](Week0/assets/gtkwave1.png)
+![GTKWave](Week0/assets/gtkwave2.png)  
 
 ✅ **GTKWave Successfully Installed**  
 
@@ -105,7 +112,7 @@ sudo apt install ngspice
 ```
 
 📷 *Installation successful*  
-![Ngspice Installed](Week0/assets/ngspice_installed.png)  
+![Ngspice Installed](Week0/assets/ngspice.png)  
 
 ✅ **Ngspice Successfully Installed**  
 
@@ -130,7 +137,7 @@ sudo make install
 ```
 
 📷 *Installation successful*  
-![Magic VLSI Installed](Week0/assets/magic_vlsi_installed.png)  
+![Magic VLSI Installed](Week0/assets/magic.png)  
 
 ✅ **Magic VLSI Successfully Installed**  
 
