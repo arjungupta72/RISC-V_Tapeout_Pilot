@@ -7,14 +7,14 @@
 </div>
 
 Welcome to my repository for the ** Week 0 of the RISC-V Reference SoC Tapeout Program by VSD**   
-This repo documents my **Week 0 setup and tasks**, covering installations, environment setup, and tool verification.  
+This repo documents **Week 0 Introduction and Setup**, covering Introduction to the Chip design flow-from modelling to Tapeout, and Setting up environment and installing required tools.  
 
 ---
 
 ## 📅 Week 0 
 ## Task 1-Video Summary
 ## Task 2- Setup & Tools Installation 
-##  **System and Virtual Machine Configuration**
+##  **1. System and Virtual Machine Configuration**
 
 To ensure optimal performance,  configure a **Virtual Machine (VM)** with the following specifications:
 
