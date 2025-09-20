@@ -196,10 +196,11 @@ sudo reboot
 # After reboot
 docker run hello-world
 ```
-✅ **Docker Successfully Installed**  
+ 
 📷 *Installation successful* 
 ![Docker Installed](assets/docker.png)  
 
+✅ **Docker Successfully Installed** 
 ---
 
 ##### OpenLane Installation  
@@ -224,9 +225,6 @@ make
 make test
 ```
 
-📷 *Installation successful*  
-![OpenLane Installed](assets/openlane.png)  
-
 ✅ **OpenLane Successfully Installed**  
 
 ---
@@ -234,12 +232,10 @@ make test
 ### 🌟 Key Learnings from Week 0  
 - Installed and verified **open-source EDA tools**.  
 - Set up **Docker + OpenLane**.  
-- Learned about the chip design pipeline from **modeling to tapeout**.  
+- Learned about the chip design process from **modeling to tapeout**.  
 
 ---
 
 ## 🙏 Acknowledgment  
-
-I am thankful to the entire VSD Team and the program partners for this incredible learning opportunity.  
-
+I am thankful to the entire VSD Team and the program partners for this incredible learning opportunity. Looking forward to the next few weeks of learning.
 ---
