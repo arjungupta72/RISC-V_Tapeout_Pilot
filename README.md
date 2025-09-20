@@ -201,6 +201,7 @@ docker run hello-world
 ![Docker Installed](assets/docker.png)  
 
 ✅ **Docker Successfully Installed** 
+
 ---
 
 ##### OpenLane Installation  
