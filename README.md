@@ -82,7 +82,7 @@ git submodule update --init --recursive
 make
 sudo make install
 ```
-📷 *Installation successful*  
+
 ![Yosys Installed](assets/yosys.png)  
 
 ✅ **Yosys Successfully Installed**  
@@ -97,7 +97,6 @@ sudo apt update
 sudo apt install iverilog
 ```
 
-📷 *Installation successful*  
 ![Iverilog Installed](assets/iverilog.png)  
 
 ✅ **Iverilog Successfully Installed**  
@@ -112,7 +111,6 @@ sudo apt update
 sudo apt install gtkwave
 ```
 
-📷 *Installation successful*  
 ![GTKWave Installed](assets/gtkwave1.png)
 ![GTKWave](assets/gtkwave2.png)  
 
@@ -128,7 +126,6 @@ sudo apt update
 sudo apt install ngspice
 ```
 
-📷 *Installation successful*  
 ![Ngspice Installed](assets/ngspice.png)  
 
 ✅ **Ngspice Successfully Installed**  
@@ -153,7 +150,6 @@ make
 sudo make install
 ```
 
-📷 *Installation successful*  
 ![Magic](assets/magic1.png)
 ![Magic](assets/magic2.png)
 
@@ -197,7 +193,6 @@ sudo reboot
 docker run hello-world
 ```
  
-📷 *Installation successful* 
 ![Docker Installed](assets/docker.png)  
 
 ✅ **Docker Successfully Installed** 
