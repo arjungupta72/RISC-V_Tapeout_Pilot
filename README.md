@@ -26,12 +26,12 @@ To ensure optimal performance, configure a **Virtual Machine (VM)** with the fol
 
 <div align="center">
 
-| **Specification** 💻    | **Details** 📋          |
-|--------------------------|-------------------------|
-| **Operating System** 🐧 | Ubuntu 20.04+           |
-| **RAM** 💾              | 6GB                     |
-| **Storage** 💿          | 50GB HDD                |
-| **vCPUs** ⚡            | 4                       |
+| **Specification**     | **Details**       |
+|-----------------------|-------------------------|
+| **Operating System**  | Ubuntu 20.04+           |
+| **RAM**               | 6GB                     |
+| **Storage**           | 50GB HDD                |
+| **vCPUs**             | 4                       |
 
 </div>
 
@@ -96,7 +96,7 @@ sudo apt install gtkwave
 
 ---
 
-##### ⚡ Ngspice – Circuit Simulator  
+##### Ngspice – Circuit Simulator  
 *Ngspice performs analog and mixed-signal circuit simulations.*  
 
 ```bash
@@ -111,7 +111,7 @@ sudo apt install ngspice
 
 ---
 
-##### 🎨 Magic VLSI – Layout Editor  
+##### Magic VLSI – Layout Editor  
 *Magic VLSI is an open-source tool for creating and analyzing VLSI layouts with DRC support.*  
 
 ```bash
@@ -174,7 +174,7 @@ sudo docker run hello-world
 
 ---
 
-##### 🧰 OpenLane Installation  
+##### OpenLane Installation  
 *OpenLane integrates multiple open-source tools (like Yosys, OpenROAD, Magic, Netgen) into a single automated flow.*  
 
 ```bash
@@ -194,8 +194,8 @@ make test
 
 ### 🌟 Key Learnings from Week 0  
 - Installed and verified **open-source EDA tools**.  
-- Set up **Docker + OpenLane** for RTL-to-GDSII design flow.  
-- Understood basics of **synthesis, simulation, and layout tools**.  
+- Set up **Docker + OpenLane**.  
+- Learned about the chip design pipeline from **modeling to tapeout**.  
 
 ---
 
