@@ -82,6 +82,8 @@ git submodule update --init --recursive
 make
 sudo make install
 ```
+📷 *Installation successful*  
+![Yosys Installed](assets/yosys.png)  
 
 ✅ **Yosys Successfully Installed**  
 
